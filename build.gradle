@@ -15,10 +15,7 @@ ext {
 }
 
 java {
-//	sourceCompatibility = '17'
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(8)
-	}
+	sourceCompatibility = '17'
 }
 
 configurations {
