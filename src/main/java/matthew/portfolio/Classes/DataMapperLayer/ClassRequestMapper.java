@@ -12,7 +12,7 @@ public interface ClassRequestMapper {
 
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "classId", ignore = true)
-    @Mapping(source = "semester", target= "semester ")
+    @Mapping(source = "semester", target= "semester")
     @Mapping(source = "className", target = "className")
     @Mapping(source = "teacherName", target = "teacherName")
     @Mapping(source = "skills", target = "skills")

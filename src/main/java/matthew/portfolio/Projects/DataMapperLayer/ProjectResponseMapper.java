@@ -16,7 +16,7 @@ public interface ProjectResponseMapper {
     @Mapping(source = "projectId", target = "projectId")
     @Mapping(source = "projectName", target = "projectName")
     @Mapping(source = "projectDescription", target = "projectDescription")
-    @Mapping(source = "projectDuration", target = " projectDuration")
+    @Mapping(source = "projectDuration", target = "projectDuration")
     @Mapping(source = "projectType", target = "projectType")
     @Mapping(source = "projectSkill", target = "projectSkill")
     @Mapping(source = "githubLink", target = "githubLink")
