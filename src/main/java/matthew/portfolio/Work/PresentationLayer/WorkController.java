@@ -13,7 +13,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@CrossOrigin(origins ={"http://localhost:3000", "https://matthew-portfolio-75oxyqfon-matthewtan9s-projects.vercel.app/","matthewtan-portfolio.vercel.app"},allowCredentials = "true", allowedHeaders = {"xsrf-token", "content-type"})
+@CrossOrigin(origins ={"http://localhost:3000", "https://matthew-portfolio-75oxyqfon-matthewtan9s-projects.vercel.app/","https://matthewtan-portfolio.vercel.app/"},allowCredentials = "true", allowedHeaders = {"xsrf-token", "content-type"})
 @RequestMapping("works")
 public class WorkController {
 
