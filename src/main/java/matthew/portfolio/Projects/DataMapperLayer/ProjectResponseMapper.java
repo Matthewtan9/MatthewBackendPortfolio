@@ -21,7 +21,7 @@ public interface ProjectResponseMapper {
     @Mapping(source = "projectSkill", target = "projectSkill")
     @Mapping(source = "githubLink", target = "githubLink")
 
-    Project requestModelToEntity(ProjectRequestDTO projectRequestDTO);
+//    Project requestModelToEntity(ProjectRequestDTO projectRequestDTO);
 
     List<ProjectResponseDTO> entityListToResponseModelList(List<Project> projects);
 

@@ -1,10 +1,10 @@
-## Default Spring Profile
-#server:
-#  port: ${PORT:8080}
-#  error:
-#    include-message: always
-#
-#
+# Default Spring Profile
+server:
+  port: ${PORT:8080}
+  error:
+    include-message: always
+
+
 #logging:
 #  level:
 #    root: INFO
