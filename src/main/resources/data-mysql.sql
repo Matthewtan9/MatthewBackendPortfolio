@@ -10,7 +10,7 @@
 -- VALUES ('97f65301-8ebf-4262-b9a8-00638651974d', 'Servant', 'Le Buffet des Continents', '7200 Boul Taschereau, Brossard QC J4W1M9 ', 'ONSITE', 'Jun 2022 - Aug 2022', 'FINISHED', 'During the summer of 2022, I worked in a fast-paced restaurant where I had to replace trays emptied by customers with fresh ones prepared by the cooks.');
 -- INSERT INTO works (work_id, work_title, work_place_name, location, type, duration, status, description)
 -- VALUES ('a9af9c65-e3c4-46b8-9022-1c32386d02ad', 'Charcuterie', 'Metro Plus Bellemare', '2004 Boul ROME, Brossard, QC J4W 3M7', 'ONSITE', 'Sep 2019 - 2022', 'FINISHED', 'I have worked in an environment where I served customers, preparing their requested meals. I also made sure to keep the place tidy and clean.');
---
+
 -- --Project
 -- INSERT INTO projects (project_id, project_name, project_description, project_duration, project_type, project_skill,  github_link)
 -- VALUES ('96983e8a-40aa-4250-8ba8-3a947565fc96', 'Champlain_petclinic', 'A developpement of adding functionality to a implemented microservices','Sep 2023 - Present', 'TEAMWORK', 'JAVA SPRINGBOOT, HTML, CSS, ANGULAR','https://github.com/cgerard321/champlain_petclinic');
@@ -18,7 +18,7 @@
 -- VALUES ('7f51b247-3fb2-4f95-9c25-e7892baaaf2b', 'DreamDefendersProject', 'A 2D tower defense game developed using Unity and C#. This project was a collaboration among a team of four, and we utilized GitHub for version control, consistently pushing and committing our contributions to the game', 'Mar 2022 - May 2022','TEAMWORK', 'UNITY, C#','https://github.com/Eli293/DreamDefendersProject');
 -- INSERT INTO projects (project_id, project_name, project_description, project_duration, project_type, project_skill,  github_link)
 -- VALUES ('0a49546a-09e8-4fb9-8f3b-1c67dbcbf49e', 'ECP-CoupeTonArbre', 'A project where we develop a site for client in which it contains many service and crud services. ', 'Mar 2023 - Present','TEAMWORK', 'SPRINGBOOT JAVA, REACT, JIRA','https://github.com/ebond07/CoupeTonArbre');
---
+
 --
 -- --Classes
 -- --Semester 1
@@ -30,7 +30,7 @@
 -- VALUES ('420-N12-LA','SEMESTER_1', 'Object Oriented Programming With Java 1', 'Ishtiaq Shahriar', 'JAVA, OBJECT_ORIENTED_PROGRAMMING', 'Introduction to programming, covering data types, classes, syntax, and structures in Java.');
 -- INSERT INTO classes (class_id, semester,class_name, teacher_name, skills, description)
 -- VALUES ('420-N13-LA','SEMESTER_1', 'User Experience/Web Interface', 'Jennifer Liutec', 'HTML, CSS, USER_INTERFACE', 'Basic web interface development using HTML, exploring user experience design.');
---
+
 -- --Semester 2
 -- INSERT INTO classes (class_id, semester, class_name, teacher_name, skills, description)
 -- VALUES ('420-N24-LA', 'SEMESTER_2', 'Web Programming and Js Libraries', 'Elaheh Mozaffari', 'HTML, JAVASCRIPT, WEB DEVELOPMENT', 'Web programming and JS libraries. Learn combining HTML with JavaScript to develop complex websites. Pros: Decent course on JavaScript basics for front-end. Cons: Moderately challenging for beginners.');
@@ -66,7 +66,7 @@
 -- VALUES ('420-N44-LA', 'SEMESTER_4', 'Game Development', 'Brendan Wood', 'Unity, Git commands', 'Game Development (420-N44-LA) course teaches gaming app development through Unity. Pros: Enjoyable experience, learning Git commands. Cons: Challenging tests, high number of slides for review.');
 -- INSERT INTO classes (class_id, semester, class_name, teacher_name, skills, description)
 -- VALUES ('420-N45-LA', 'SEMESTER_4', 'Web Services and Dist Comp', 'Christine Gerard', 'Microservices, Java Spring Boot', 'Web Services and Dist Comp (420-N45-LA) course covers fundamentals of microservices. Pros: Important for web development using Java Spring Boot, helpful teacher. Cons: Fast-paced lectures, difficulty keeping up, reliance on classmates for code completion.');
---
+
 -- --Semester 5
 --
 -- --Semester 6
