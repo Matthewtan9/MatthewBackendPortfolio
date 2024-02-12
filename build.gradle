@@ -6,7 +6,7 @@ plugins {
 }
 bootJar {
 	manifest {
-		attributes 'Main-Class': 'matthew.portfolio' // Replace 'com.example.Application' with the fully qualified name of your main application class
+		attributes 'Main-Class': 'matthew.portfolio.backendportfolioApplication' // Replace 'com.example.Application' with the fully qualified name of your main application class
 	}
 }
 
