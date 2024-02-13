@@ -1,23 +1,22 @@
-#version: '3.9'
+#version: '3.8'
+#
 #services:
-#  backend:
+#  postgres:
+#    image: postgres:latest
+#    restart: always
+#    environment:
+#      POSTGRES_DB: dc0cl4q7rjane4
+#      POSTGRES_USER: hjnnjofgbphcvu
+#      POSTGRES_PASSWORD: e1f81945f6c0059dc57532e37d593f12bc5dc8214ec7bff8d768671984df3f30
+#    volumes:
+#      - postgres_data:/var/lib/postgresql/data
+#
+#  backendportfolio:
 #    build: .
 #    ports:
 #      - "8080:8080"
-#    environment:
-#      - SPRING_PROFILES_ACTIVE=docker
 #    depends_on:
 #      - postgres
 #
-#
-#  postgres:
-#    container_name: postgres
-#    image: postgres:latest
-#    ports:
-#      - "5432:5432"
-#    environment:
-#      - POSTGRES_DB=postgres
-#      - POSTGRES_USER=postgres
-#      - POSTGRES_PASSWORD=1234
-#    volumes:
-#      - ./data/postgres:/var/lib/postgresql/data
+#volumes:
+#  postgres_data:
